@@ -4,11 +4,6 @@ build
 coverage
 .vscode
 .idea
-.environment
-.tevun
-.github
-.husky
 public
 tailwind.config.cjs
-commitlint.config.js
 
