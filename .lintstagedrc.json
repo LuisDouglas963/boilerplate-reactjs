@@ -1,0 +1,3 @@
+{
+  "*.{ts,tsx,js,jsx}": ["prettier . --check --write", "eslint --ext .jsx,.js,.scss 'src/**' --fix"]
+}
