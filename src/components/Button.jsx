@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
 export const Button = ({ text, type, className, isDisabled, isLoading, children, onClick, ...rest }) => {
-  const buttonClasses = classNames('py-3 px-7 bg-primary-500 text-white rounded-lg hover:bg-primary-300', className, {
+  const buttonClasses = classNames('py-3 px-7 text-white rounded-lg bg-blue-500/50', className, {
     'bg-gray-500 hover:bg-gray-500 text-gray-200': isDisabled,
   })
   return (

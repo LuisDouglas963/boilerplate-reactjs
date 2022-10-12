@@ -2,7 +2,7 @@ import React from 'react'
 import NumberFormat from 'react-number-format'
 import classNames from 'classnames'
 
-const MoneyAsText = ({ value, prefix = 'R$ ', precision = 2, ...rest }) => {
+export const MoneyAsText = ({ value, prefix = 'R$ ', precision = 2, ...rest }) => {
   const { className, suffix = '' } = rest
   let decimalSeparator = ','
   let thousandSeparator = '.'
